@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+html, body{
+    margin: 0;
+    padding: 0;
+    background: #05101c;
+    color: whitesmoke;
+;
+}
+*{
+    font-family: 'Zilla Slab', serif;
+    font-weight: 600;
+
+}
+
+
+.image-inverted {
+    filter: invert(1);
+}
+
+.rotate {
+    animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
